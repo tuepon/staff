@@ -1,5 +1,5 @@
 <?php
-session_start();
+/*session_start();
 session_regenerate_id(true);
 if(isset($_SESSION['login'])==false)
 {
@@ -12,7 +12,7 @@ else
     print $_SESSION['staff_name'];
     print 'さんログイン中<br>';
     print '<br>';
-}
+}*/
 ?>
 
 <!DOCTYPE html>
