@@ -20,16 +20,9 @@ else
   <head>
     <meta charset="UTF-8">
     <title>スタッフ情報参照</title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-        <!-- Custom styles for this template -->
-    <link href="../bootstrap/css/signin.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
 <body>
-    <div class="container">
-      <div class="starter-template">
-        <h1>スタッフ情報</h1>
+
 <?php
 
 try
@@ -62,18 +55,18 @@ catch(Exception $e)
 
 ?>
 
+スタッフ情報参照<br>
 <br>
-<div class="lead">スタッフコード</div><br>
+スタッフコード<br>
 <?php print $staff_code; ?>
-<br><br>
-<div class="lead">スタッフ名</div><br>
+<br>
+スタッフ名<br>
 <?php print $staff_name; ?>
 <br>
 <br>
 <form>
 <input type="button" onclick="history.back()" value="戻る">
 </form>
-</div>
-</div>
+
 </body>
 </html>
